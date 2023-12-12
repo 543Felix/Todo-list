@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-gradient-to-r from-yellow-300 to-red-500;
+    @apply font-sans;
+    @apply min-h-screen;
+  }
